@@ -26,7 +26,7 @@ def hello():
     
 @app.route("/name")
 def name():
-  return "Tessa and Julia motherfuckers!!!!!" # please remember to change this
+  return "Tessa and Julia!!!!!" # please remember to change this
   
 @app.route("/search", methods=["POST", "GET"])
 def search():
