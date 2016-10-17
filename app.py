@@ -7,7 +7,7 @@ Created on Thu Sep 29 00:05:43 2016
 """
 
 from flask import Flask, render_template, request
-from flask.ext.mongoengine import MongoEngine
+from flask_mongoengine import MongoEngine
 import requests
 
 app = Flask(__name__)
